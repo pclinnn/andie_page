@@ -29,19 +29,15 @@ section {
 .home{
     width: 100%;
     height: 100vh;
-    background-image: url('sunrise.jpg');
+    background-image: url('penghu.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: whitesmoke;
+    color: rgba(2, 61, 88, 0.774);
 }
-.circle{
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 200px;
-    width: 200px;
-    border-radius:100%;
+.title{    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,30 +49,40 @@ section {
 .left{
     width:50%;
     height:100%;
-    background-image:url('bunny-ducky.png');
+    background-image:url('kid_v1.jpg');
     background-size: cover;
     background-position: center;
 }
 .right{
     width: 50%;
     height: 100%;
-    background-color: rgb(0, 0, 0);
-    color:rgba(255, 230, 0, 0.767);
+    background-color: rgba(2, 61, 88, 0.774);
+    color:whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 250%;
 }
 .contact {
+    width: 100%;
+    height: 100vh;
+    background-image: url('WIA_v1.jpg');
     background-color: rgb(50, 46, 59);
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
 }
 .contact-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
     display: flex;
-    flex-direction: ;
+    justify-content: center;
+    align-items: center;  
 }
 .contact-content a {
     display: flex;
